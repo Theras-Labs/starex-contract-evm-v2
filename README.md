@@ -4,6 +4,36 @@
 
 This repository contains the Solidity smart contracts that govern various aspects of our blockchain-based game. The shop, marketplace, and NFT contracts will be using Theras' tokenizing hub, which is continually being improved and upgraded to facilitate easier cross-chain features. Meanwhile, the utility of other aspects and the interoperability of the game will be explained here until the team finds a way to modularize them again if needed.
 
+## CHAINLINK INTEGRATION - ONCHAIN GAMEPLAY
+
+3 new features:
+
+- Continously Randomise Challenges & Rewards:
+- Decentralised Resources Control
+- Cross-chain Challenges (actually extension of 1st one but need to separate for easier judging)
+
+## How we built it
+
+The latest update involving chainlink features:
+ccip, vrf, automation, ~~functions~~ , data feed, LxLy-zkEVM Bridge.
+
+there are more to do on polishing the feature to be fully ready goes into mainnet, we are releasing to other EVM first in june, and with the following on-chain gameplay in our mini-game release.
+
+1st Feature: Player enter the game -> the amount and rarity of the rewards will be based on VRF, and to avoid bot cheat, then it will use automation programatically to do re-random again with self-logic
+
+2nd Feature: Each major blockchain who control zone rarity, amount. All those data will be based on chainlink-vrf making it more decentralised and no centralised decision to side with specific network, and it will be automatically refresh for each 3days (or perhaps we change it into each 1week)
+
+3rd Feature: This is mainly for streamer and best when our multiplayer is ready, so viewer can contribute to increase the level of challenges in the game ~~while also able to plant minefiled and steal the resources for incentive program ~~
+
+```
+Contracts on-chain gameplays:
+Avax fuji token has little only, so deploying to other.
+
+Feature 1: on Avax fuji - 0xFe9DF23d3EFAB6cC71D3395aFFB3aa505d1935eB
+Feature 2: on ~~zkEVM crdn testnet~~ Avax fuji - 0xBe913A4F01fd9012674DC342aB1dD2d8fbeeA6Fa
+Feature 3:  ccip  Amoi -  0x0c5941a32eABc3de826343e997EB03f762C64A0f , Sepolia - 0xb070889604849da652b6119e33C4BF881917ff77
+```
+
 ## Contracts deployed:
 
 ### Sepolia Testnet - 11155111
@@ -28,7 +58,6 @@ This repository contains the Solidity smart contracts that govern various aspect
 - **AIRDROP POOL**: TBC
 - **CRAFTING MANAGER**: TBC
 
-
 ### BTTC Testnet Donaou - 1029
 
 - **TRC1155 Implementation**: 0x16F0EB9CD042e3D9e519baf660c18f4E8E4eF93e
@@ -50,3 +79,7 @@ This repository contains the Solidity smart contracts that govern various aspect
 - **1155 STAREX-ASSET**: 0x8B226463af57EC5a9e8b4161BF4287f8606bde34
 - **AIRDROP POOL**: TBC
 - **CRAFTING MANAGER**: TBC
+
+```
+
+```
