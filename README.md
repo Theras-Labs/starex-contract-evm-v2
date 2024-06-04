@@ -6,17 +6,6 @@ This repository contains the Solidity smart contracts that govern various aspect
 
 ## Contracts deployed:
 
-### Sepolia Testnet - 11155111
-
-- **TRC1155 Implementation**: 0xEF3177ebc9190f5007E39d8Ce314d66Db5559DF2
-- **THERAS SHOP**: 0x07Ab9eed2d023dB86a1E6F38bC71565f76d561Fb
-- **CLAIM MANAGER**: TBC
-- **NFT Project (BADGE)**: 0x23cEb32CaCB7dbe2D78C2a38ab6E99aFbd626565
-- **1155 STAREX STARSHIP**: 0xE41B1f5d9C4d8d1c309118b034C807126D87FcB4
-- **1155 STAREX-ASSET**: [Contract Address]
-- **AIRDROP POOL**: TBC
-- **CRAFTING MANAGER**: TBC
-
 ### opBNB Testnet - 842
 
 - **TRC1155 Implementation**: 0x16F0EB9CD042e3D9e519baf660c18f4E8E4eF93e
@@ -27,7 +16,22 @@ This repository contains the Solidity smart contracts that govern various aspect
 - **STAREX MATERIAL**: -
 - **AIRDROP POOL**: TBC
 - **CRAFTING MANAGER**: TBC
+- **Play**: 0x558A682636988925F48eF58d3975293665b69C86
 
+### BNB Testnet
+
+- **Play CrossChain**: TBC [Binance Testnet]
+
+### Sepolia Testnet - 11155111
+
+- **TRC1155 Implementation**: 0xEF3177ebc9190f5007E39d8Ce314d66Db5559DF2
+- **THERAS SHOP**: 0x07Ab9eed2d023dB86a1E6F38bC71565f76d561Fb
+- **CLAIM MANAGER**: TBC
+- **NFT Project (BADGE)**: 0x23cEb32CaCB7dbe2D78C2a38ab6E99aFbd626565
+- **1155 STAREX STARSHIP**: 0xE41B1f5d9C4d8d1c309118b034C807126D87FcB4
+- **1155 STAREX-ASSET**: [Contract Address]
+- **AIRDROP POOL**: TBC
+- **CRAFTING MANAGER**: TBC
 
 ### BTTC Testnet Donaou - 1029
 
