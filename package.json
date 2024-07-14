@@ -11,6 +11,7 @@
     "@typechain/hardhat": "^6.1.2",
     "@types/chai": "^4.2.0",
     "@types/mocha": ">=9.1.0",
+    "@zetachain/toolkit": "5.0.0",
     "chai": "^4.3.10",
     "dotenv": "^16.3.1",
     "hardhat": "^2.19.1",
